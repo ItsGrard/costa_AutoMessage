@@ -25,7 +25,7 @@ Remember, **hour[NUMBER] is _"linked"_ to message[NUMBER]**.
 
 ### What is this used for?
 
-I'm using it to announce the shutting down of the server 30, 10, 5 and 1 minuto before it automatically closes, since I have it set up to auto-open and auto-close at certain hours.
+I'm using it to announce the shutting down of the server 30, 10, 5 and 1 minute before it automatically closes, since I have it set up to auto-open and auto-close at certain hours.
 
 You can use it to whatever your imagination lets you, as long as you keep the order right you can add as many messages as you want, with their respective hours of course.
 
