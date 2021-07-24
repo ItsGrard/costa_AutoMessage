@@ -33,7 +33,7 @@ You can use it to whatever your imagination lets you, as long as you keep the or
 
 Just as any other FiveM resource;
 - Download it as .zip. 
-If you do so, unzip it anywhere inside a folder, then copy that folder into your _resources_ folder and add _start NAME_ to your server.cfg file, where _NAME_ is the name of the folder you unzipped everytihng in.
+If you do so, unzip it anywhere inside a folder, then copy that folder into your _resources_ folder and add _start NAME_ to your server.cfg file, where _NAME_ is the name of the folder you unzipped everything in.
 - Clone it to your server. 
 If you choose this option is because you understand how this works.
 
