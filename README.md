@@ -32,10 +32,10 @@ You can use it to whatever your imagination lets you, as long as you keep the or
 ### How to install it?
 
 Just as any other FiveM resource;
-- Download it as .zip
+- Download it as .zip. 
 If you do so, unzip it anywhere inside a folder, then copy that folder into your _resources_ folder and add _start NAME_ to your server.cfg file, where _NAME_ is the name of the folder you unzipped everytihng in.
-- Clone it to your server
-If you choose this options is because you understand how this works.
+- Clone it to your server. 
+If you choose this option is because you understand how this works.
 
 All of the above is easy to fix and most of you probably have been thinking about it while reading this, however I don't need it for my use case so, for now, I'm leaving it like that.
 
