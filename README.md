@@ -1,4 +1,4 @@
-   # RebootMessage
+   # AutoMessage
 ###### _This script allows you to send certain messages at certain hours of the day._
 ###### _It was made for Costa del Sol RP, a spanish roleplay server._
 
