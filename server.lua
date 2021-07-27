@@ -3,7 +3,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 		dat = os.date("%H:%M")
-		for k,v in ipairs(Config.hour) do --wrong, k is the index
+		for k,v in ipairs(Config.hour) do
 			local hourIndex = v[1]
 			if dat == v[2] then
 				for k, v in ipairs(Config.messages) do
