@@ -1,15 +1,19 @@
 
-index = 1
-
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 		dat = os.date("%H:%M")
-		if dat == Config.hour[index] then 
-			TriggerClientEvent('chat:addMessage', -1, { args = {Config.messages[index]}, color = { 255, 153, 153} })
-			index = index + 1
-			Citizen.Wait(60100) -- Waits one full minute, really important or chat would get spammed
+		for k,v in ipairs(Config.hour) do --wrong, k is the index
+			local hourIndex = v[1]
+			if dat == v[2] then
+				for k, v in ipairs(Config.messages) do
+					if v[1] == hourIndex then
+						TriggerClientEvent('chat:addMessage', -1, { args = {v[2]}, color = { 255, 153, 153} })
+						Citizen.Wait(60000) -- Waits one full minute, really important or chat would get spammed
+					end
+				end
+			end
 		end
-	end
+end
 end)
 

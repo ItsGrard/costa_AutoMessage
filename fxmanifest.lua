@@ -3,7 +3,7 @@ games { 'gta5' }
 
 author 'Grard'
 description 'Send messages at specified hours'
-version '1.0.0'
+version '1.1.0'
 
 client_script "client.lua"
 
