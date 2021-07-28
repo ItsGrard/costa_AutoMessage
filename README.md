@@ -5,20 +5,9 @@
 
 ## How does it work
 
-It is pretty simple and self explanatory. However, there's something you should know.
+It is pretty simple and self explanatory.
 
-Numbers are the key, so for these tables:
-
-- {1, '02:30'},
-- {5, '14:30'},
-- {1, 'This message will be displayed at 02:30!'},
-- {2, 'This message won't be displayed :('},
-- {5, 'This message will be displayed at 14:30'}
-
-The message *1* will be displayed at 02:30 since that hour in *Config.hour* table has the same number as the first message.
-For this example message *2* wouldn't be displayed since there isn't any hour associated to number 2.
-
-You can use whatever order you wish and add as many messages and hours as you want, not being consistent doesn't do any harm (you can have 5 hours set but only 2 messages for example). However your table must always consist of 2 values, an *integer* and a *string* and the *Config.hour* table **must be written in a 24h format** such as *'13:45'*, *'03:09'* and so on.
+You can use whatever order you wish and add as many messages and hours as you want, not being consistent doesn't do any harm (you can have 5 hours set but only 2 messages for example). However your table must always consist of 2 strings, the first one being the hour and the second one the message. The hour **must be written in a 24h format** such as *'13:45'*, *'03:09'* and so on.
 
 This script takes the server time so you must make sure it is set correctly or, if you want another hour cause your server is in a different time zone just correct it.
 
@@ -36,7 +25,7 @@ Just as any other FiveM resource;
 - Clone it to your server: 
     - If you choose this option is because you understand how this works.
 
-Feel free to PR.
+
 
 
 [![CostaDelSolRP](https://pbs.twimg.com/profile_images/1347632557911904256/q1W8QQ8A_200x200.png)](http://www.costadelsolrp.xyz)
