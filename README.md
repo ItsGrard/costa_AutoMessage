@@ -11,6 +11,8 @@ You can use whatever order you wish and add as many messages and hours as you wa
 
 This script takes the server time so you must make sure it is set correctly or, if you want another hour cause your server is in a different time zone just correct it.
 
+Ah! Forgot to mention, you can edit your message color using FiveM text formatting as seen in [here](https://forum.cfx.re/t/chat-formatting-colors-bold-underline/67641) .
+
 ### What is this used for?
 
 I'm using it to announce the shutting down of the server 30, 10, 5 and 1 minute before it automatically closes, since I have it set up to auto-open and auto-close at certain hours.
